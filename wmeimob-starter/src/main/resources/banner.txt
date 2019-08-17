@@ -1,0 +1,9 @@
+${AnsiColor.BLUE}
+  _________________        ____.__________
+ /   _____/\_____  \      |    |\____    /
+ \_____  \  /  / \  \     |    |  /     /
+ /        \/   \_/.  \/\__|    | /     /_
+/_______  /\_____\ \_/\________|/_______ \
+        \/        \__>                  \/
+${AnsiColor.BRIGHT_RED}
+:: Wmeimob Fastboot Parent (version: 1.0.19.BUILD-SNAPSHOT code: Optimus Prime) ::  ${AnsiColor.BRIGHT_CYAN}[Spring Boot${spring-boot.formatted-version}]
