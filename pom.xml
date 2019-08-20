@@ -20,6 +20,9 @@
     <!--模块依赖 -->
     <modules>
         <module>wmeimob-starter</module>
+        <module>wmeimob-starter-security</module>
+        <module>wmeimob-starter-common</module>
+        <module>wmeimob-starter-admin-common</module>
     </modules>
     <properties>
         <java.version>1.8</java.version>

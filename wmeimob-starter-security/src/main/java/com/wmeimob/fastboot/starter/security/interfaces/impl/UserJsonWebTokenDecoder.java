@@ -22,9 +22,9 @@ public class UserJsonWebTokenDecoder implements UserJsonWebTokenContract.JsonWeb
          因为JAVA 的泛型是伪泛型 运行的时候泛型是擦除的 要么强转，要么传个.class
          源码是 强转的
          int id=(Integer) claims.get(CLAIMS_ID_KEY); 没什么差别*/
-        int id = claims.get(UserJsonWebTokenContract.CLAIMS_ID_KEY, Integer.class);
-        // 返回一个空权限的用户
-        Collection<GrantedAuthority> collection = new ArrayList<>();
-        return new User(String.valueOf(id), "", collection);
+
+        Integer id = (Integer)claims.get("id");
+        User user = new User(String.valueOf(id), "", (Collection)null);
+        return user;
     }
 }

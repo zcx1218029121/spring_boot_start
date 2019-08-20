@@ -3,7 +3,7 @@ package com.wmeimob.fastboot.starter.security.context;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.UserDetails;
 
-public class SecurityContext<T extends UserDetails> {
+public class SecurityContext{
 
     public SecurityContext() {
     }
